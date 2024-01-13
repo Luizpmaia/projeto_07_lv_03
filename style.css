@@ -223,6 +223,17 @@ footer {
       "main main section";
   }
 
+  header .containerHeader {
+    grid-template-columns: max-content 1fr max-content;
+    width: 100%;
+    padding: 0 110rem;
+  }
+
+  header input {
+    width: 95%;
+    height: 40rem;
+  }
+
   main {
     grid-area: main;
     margin-top: 0rem;
